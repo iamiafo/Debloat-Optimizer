@@ -71,14 +71,17 @@ if %errorlevel%==9 goto 9
 : : ###################################################################### 1
 
 :1
-start https://linktr.ee/iamiafo
+start https://www.instagram.com/iamiafo/
+start https://www.twitch.tv/iamiafo
+start https://www.tiktok.com/@iamiafo
+start https://discord.com/invite/aFCqTARbE5
 goto menu
 
 : : ###################################################################### 2
 
 :2
 color c
-echo KEY [2]
+echo WORK IN PROGRESS...
 echo %backmenu%
 pause >null
 goto menu
@@ -242,10 +245,8 @@ goto menu
 : : ###################################################################### 7
 
 :7
-color c
-echo KEY [7]
-echo %backmenu%
-pause >null
+color 2
+https://github.com/iamiafo/Debloat-Optimizer
 goto menu
 
 : : ###################################################################### 8
