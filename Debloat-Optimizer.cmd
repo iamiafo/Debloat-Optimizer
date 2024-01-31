@@ -246,7 +246,7 @@ goto menu
 
 :7
 color 2
-https://github.com/iamiafo/Debloat-Optimizer
+start https://github.com/iamiafo/Debloat-Optimizer
 goto menu
 
 : : ###################################################################### 8
