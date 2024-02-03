@@ -1,9 +1,9 @@
 @echo off
 color c
-mode 95,27
+mode 95,28
 : : ######################################################################## TITLE
 
-title Debloat By iamiafo v0.1 20:26 31/01/2024
+title Debloat By iamiafo v0.1 20:26 14:50 03/02/2024
 
 : : ######################################################################## ADMINISTRATOR PRIVILEGES
 
@@ -41,6 +41,7 @@ echo                           [6]. REMOVE TEMPORARY FILES.
 echo                           [7]. GET THE LATEST VERSION.
 echo                           [8]. BACK TO MENU.
 echo                           [9]. REBOOT YOUR PC NOW.
+echo.                          [0]. EXIT  
 echo.                                              
 echo                                  SERVICES AND TASKS WILL BE 
 echo                                    DISABLED AFTER REBOOT.
@@ -53,10 +54,10 @@ set backmenu=                            [PRESS A KEY TO RETURN TO THE MENU]
 
 : : ########################################################################
 
-choice /c 123456789 /n /m "[SELECT KEY]"
+choice /c 1234567890 /n /m "[SELECT KEY]"
 cls
 
-: : ########################################################################
+: : ######################################################################## 
 
 if %errorlevel%==1 goto 1
 if %errorlevel%==2 goto 2
@@ -67,6 +68,11 @@ if %errorlevel%==6 goto 6
 if %errorlevel%==7 goto 7
 if %errorlevel%==8 goto 8
 if %errorlevel%==9 goto 9
+if %errorlevel%==0 goto 0
+
+: : ###################################################################### 0
+:0
+exit
 
 : : ###################################################################### 1
 
