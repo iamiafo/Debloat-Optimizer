@@ -3,7 +3,7 @@ color c
 mode 95,28
 : : ######################################################################## TITLE
 
-title Debloat By iamiafo v0.1 20:26 14:50 03/02/2024
+title Debloat By iamiafo v0.1 20:26 14:52 03/02/2024
 
 : : ######################################################################## ADMINISTRATOR PRIVILEGES
 
@@ -41,7 +41,7 @@ echo                           [6]. REMOVE TEMPORARY FILES.
 echo                           [7]. GET THE LATEST VERSION.
 echo                           [8]. BACK TO MENU.
 echo                           [9]. REBOOT YOUR PC NOW.
-echo.                          [0]. EXIT  
+echo.                          [0]. EXIT. 
 echo.                                              
 echo                                  SERVICES AND TASKS WILL BE 
 echo                                    DISABLED AFTER REBOOT.
