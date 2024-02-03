@@ -41,7 +41,7 @@ echo                           [6]. REMOVE TEMPORARY FILES.
 echo                           [7]. GET THE LATEST VERSION.
 echo                           [8]. BACK TO MENU.
 echo                           [9]. REBOOT YOUR PC NOW.
-echo.                          [0]. EXIT. 
+echo.                          [0]. EXIT.
 echo.                                              
 echo                                  SERVICES AND TASKS WILL BE 
 echo                                    DISABLED AFTER REBOOT.
